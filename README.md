@@ -280,7 +280,7 @@ All backend functionality is exposed via `#[tauri::command]` and called from the
 
 ## License
 
-[MIT](LICENSE)
+[AGPL-3.0](LICENSE)
 
 ---
 
