@@ -1,0 +1,407 @@
+{
+  "slogan": "轻量 · 快速 · 开源",
+  "account": {
+    "switch": "切换账户",
+    "offline": "离线模式"
+  },
+  "accountPage": {
+    "title": "账号管理",
+    "tabs": {
+      "muoceon": "MuoCeon 云账号",
+      "game": "游戏账号"
+    },
+    "muoceon": {
+      "title": "MuoCeon 云账号",
+      "desc": "登录 MuoCeon 账号，开启云端数据同步与跨设备漫游",
+      "login": "登录",
+      "register": "注册",
+      "loggedInAs": "已登录",
+      "sync": {
+        "title": "数据同步",
+        "desc": "自动同步设置、实例配置与启动记录",
+        "enabled": "已开启",
+        "disabled": "已关闭"
+      },
+      "logout": "退出登录",
+      "profile": "个人资料"
+    },
+    "game": {
+      "title": "游戏账号",
+      "desc": "管理 Minecraft 登录凭据，支持微软正版与离线模式",
+      "current": "当前账户",
+      "add": "添加账户",
+      "microsoft": "微软登录",
+      "offline": "离线模式",
+      "noAccount": "尚未添加游戏账户",
+      "noAccountDesc": "点击下方按钮添加你的 Minecraft 账户",
+      "offlineDialog": {
+        "title": "离线登录",
+        "desc": "输入游戏内显示的用户名",
+        "placeholder": "输入用户名",
+        "confirm": "确认添加",
+        "cancel": "取消",
+        "errorEmpty": "用户名不能为空",
+        "errorTooLong": "用户名不能超过 16 个字符"
+      },
+      "type": {
+        "microsoft": "微软正版",
+        "offline": "离线模式"
+      }
+    }
+  },
+  "news": {
+    "title": "最新动态",
+    "item1": "全新群系与生物上线 — 探索荒野！",
+    "item2": "性能优化，帧率提升 30%",
+    "item3": "Modding API v2.5 发布，新增钩子接口"
+  },
+  "version": {
+    "label": "版本",
+    "latest": "最新"
+  },
+  "play": "开始游戏",
+  "manageGames": "管理游戏",
+  "quickLaunchBtn": "快速启动",
+  "quickLaunch": {
+    "title": "快速启动",
+    "desc": "选择存档直接进入游戏",
+    "loading": "加载存档中…",
+    "noSaves": "暂无存档"
+  },
+  "game": {
+    "stop": "停止游戏",
+    "launching": "启动中\u2026",
+    "loginFirst": "请先登录"
+  },
+  "settings": {
+    "title": "设置",
+    "appearance": {
+      "title": "外观",
+      "desc": "主题、语言与显示偏好",
+      "theme": "主题",
+      "themeLight": "浅色",
+      "themeDark": "深色",
+      "themeSystem": "跟随系统",
+      "language": "语言"
+    },
+    "game": {
+      "title": "游戏设置",
+      "desc": "Java 路径、内存分配与游戏目录",
+      "maxMemory": "最大内存",
+      "javaPath": "Java 路径",
+      "javaPathPlaceholder": "自动检测",
+      "gameDir": "游戏目录",
+      "javaRuntime": "Java 运行时",
+      "rescan": "重新扫描",
+      "rescanning": "扫描中...",
+      "noJavaDetected": "未检测到 Java, 请手动添加或安装 JDK",
+      "addManually": "手动添加",
+      "manualAddPlaceholder": "粘贴 java 可执行文件路径或 JDK 目录...",
+      "manualAddBtn": "添加",
+      "selected": "已选择",
+      "autoDetected": "自动检测",
+      "manualSource": "手动添加",
+      "isolation": {
+        "title": "版本隔离",
+        "desc": "隔离版本的游戏数据与实例，保持各版本独立",
+        "enable": "开启版本隔离",
+        "isolateSaves": "隔离存档",
+        "isolateMods": "隔离模组",
+        "isolateConfig": "隔离配置",
+        "isolateResourcepacks": "隔离资源包"
+      }
+    },
+    "download": {
+      "title": "下载",
+      "desc": "下载缓存与并发设置",
+      "channel": "下载渠道",
+      "channelBmclapi": "BMCLAPI 镜像",
+      "channelOfficial": "Mojang 官方"
+    },
+    "about": {
+      "title": "关于 AST NEKO",
+      "desc": "版本信息、致谢与开源许可"
+    }
+  },
+  "mods": {
+    "title": "Mod 管理"
+  },
+  "download": {
+    "title": "下载中心",
+    "tabs": {
+      "versions": "游戏版本",
+      "modpacks": "整合包",
+      "mods": "模组",
+      "shaders": "光影/资源包"
+    },
+    "version": {
+      "filterAll": "全部",
+      "filterRelease": "正式版",
+      "filterSnapshot": "快照版",
+      "filterOld": "远古版",
+      "filterAprilFools": "愚人节版",
+      "search": "搜索版本...",
+      "installed": "已安装",
+      "install": "安装",
+      "launch": "启动",
+      "releaseDate": "发行时间",
+      "javaVersion": "Java 版本",
+      "size": "预计大小",
+      "installDialog": {
+        "title": "配置安装选项",
+        "instanceName": "实例名称",
+        "instanceNameHint": "这将作为游戏文件夹的名称",
+        "loaderLabel": "加载器",
+        "loaderVersion": "版本",
+        "loading": "加载中…",
+        "loaderHint": "加载器安装支持将在后续版本中实现",
+        "cancel": "取消",
+        "confirm": "开始安装",
+        "installing": "正在安装",
+        "loader": {
+          "none": "不装",
+          "vanilla": "原版",
+          "fabric": "Fabric",
+          "forge": "Forge",
+          "neoforge": "NeoForge",
+          "quilt": "Quilt",
+          "noVersions": "暂时没有兼容版本"
+        },
+        "versionType": {
+          "release": "正式版",
+          "snapshot": "快照版"
+        }
+      }
+    },
+    "mod": {
+      "filterAll": "所有",
+      "filterForge": "Forge",
+      "filterFabric": "Fabric",
+      "filterNeoForge": "NeoForge",
+      "filterQuilt": "Quilt",
+      "search": "搜索模组...",
+      "downloads": "下载",
+      "followers": "关注",
+      "download": "下载最新",
+      "mcVersion": "MC 版本"
+    },
+    "modpack": {
+      "title": "整合包",
+      "comingSoon": "整合包功能即将推出",
+      "desc": "支持导入 .mrpack / .zip 整合包文件",
+      "import": "导入整合包"
+    },
+    "shader": {
+      "title": "光影 & 资源包",
+      "comingSoon": "光影 & 资源包即将推出",
+      "desc": "将支持从 Modrinth 下载光影包和资源包",
+      "tabShaders": "光影",
+      "tabResourcepacks": "资源包"
+    },
+    "queue": {
+      "title": "下载队列",
+      "downloading": "正在下载",
+      "pending": "等待中",
+      "empty": "下载队列为空",
+      "items": "项",
+      "speed": "/s"
+    },
+    "manager": {
+      "title": "下载管理器",
+      "tab_tasks": "下载任务",
+      "tab_history": "历史记录",
+      "empty": "暂无下载任务",
+      "done": "已完成",
+      "clearDone": "清空已完成",
+      "history_empty": "暂无历史记录"
+    }
+  },
+  "task": {
+    "manager": {
+      "title": "任务管理器",
+      "tab_active": "进行中",
+      "tab_done": "已完成",
+      "tab_history": "历史记录",
+      "tag_download": "下载",
+      "tag_install": "安装",
+      "tag_launch": "启动",
+      "tag_instance": "实例",
+      "tag_multiplayer": "联机",
+      "tag_backup": "备份",
+      "tag_sync": "同步",
+      "done": "已完成",
+      "empty_active": "没有进行中的任务",
+      "empty_done": "没有已完成的任务",
+      "empty_history": "暂无历史记录",
+      "filter_by_type": "类型",
+      "clear_filter": "清除筛选",
+      "archive_done": "归档已完成",
+      "clear_history": "清空历史记录"
+    }
+  },
+  "instance": {
+    "title": "实例管理",
+    "newInstance": "新建实例",
+    "tabs": {
+      "games": "游戏",
+      "namespaces": "命名空间"
+    },
+    "filterAll": "全部",
+    "filterVanilla": "原版",
+    "filterFabric": "Fabric",
+    "filterForge": "Forge",
+    "filterNeoForge": "NeoForge",
+    "filterQuilt": "Quilt",
+    "empty": "还没有任何实例",
+    "emptyHint": "前往下载中心安装你的第一个 Minecraft 版本",
+    "goDownload": "前往下载",
+    "launch": "启动",
+    "delete": "删除",
+    "deleteDialog": {
+      "title": "删除实例",
+      "desc": "确定要删除实例 \"{{name}}\" 吗？",
+      "keepFiles": "保留游戏文件",
+      "keepFilesHint": "仅移除实例记录，保留已下载的文件",
+      "deleteAll": "同时删除游戏文件",
+      "deleteAllHint": "删除实例记录和所有相关文件",
+      "cancel": "取消",
+      "confirm": "确认删除"
+    },
+    "status": {
+      "ready": "就绪",
+      "installing": "安装中",
+      "error": "错误"
+    },
+    "gameDir": "游戏目录",
+    "version": "版本",
+    "loader": "加载器",
+    "createdAt": "创建时间",
+    "detail": {
+      "title": "实例详情",
+      "basicInfo": "基本信息",
+      "fileIntegrity": "文件完整性",
+      "reCheck": "重新检查",
+      "repairFiles": "修复文件",
+      "autoChecking": "正在自动检查文件…",
+      "openFolder": "打开目录",
+      "instanceId": "实例 ID",
+      "namespace": "命名空间",
+      "dir": "游戏目录",
+      "verifyHint": "点击右上角「修复文件」检查完整性",
+      "verifying": "正在检查文件...",
+      "allGood": "所有文件完整",
+      "someMissing": "检测到缺失文件",
+      "repairNow": "立即修复",
+      "clientJar": "客户端 JAR",
+      "versionConfig": "版本配置",
+      "libraries": "依赖库",
+      "assets": "游戏资源",
+      "criticalMissing": "关键文件缺失，无法启动",
+      "criticalHint": "请点击「修复文件」重新下载缺失的关键组件",
+      "someMissingHint": "这些文件不影响启动，但建议修复以获得完整体验",
+      "missingCount": "缺失 {{count}} 个文件",
+      "missingTitle": "缺失文件列表",
+      "tabBasic": "基本信息",
+      "tabSaves": "存档管理",
+      "tabMods": "模组管理",
+      "tabDataPacks": "数据包",
+      "tabResourcePacks": "资源包",
+      "tabShaders": "光影",
+      "tabRepair": "修复文件",
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "noSaves": "暂未找到存档",
+      "noMods": "暂未安装模组",
+      "noDataPacks": "暂未安装数据包",
+      "noResourcePacks": "暂未安装资源包",
+      "noShaders": "暂未安装光影",
+      "sectionBasic": "基础",
+      "sectionResources": "游戏资源",
+      "sectionMaintenance": "维护"
+    },
+    "preLaunch": {
+      "title": "启动前检查",
+      "checking": "正在检查文件完整性…",
+      "clientJar": "主版本文件",
+      "versionJson": "版本配置",
+      "libraries": "依赖库",
+      "assets": "资源文件",
+      "missingCount": "缺失 {{count}} 个",
+      "criticalMissing": "关键文件缺失",
+      "criticalHint": "缺少必要组件，无法启动游戏。请先修复再尝试。修复相当于重新执行安装流程，已存在的文件将被跳过。",
+      "nonCritical": "发现缺失文件",
+      "nonCriticalHint": "缺失的文件并非启动必需，游戏可能仍可正常运行。建议修复以获得完整体验。",
+      "allGood": "所有文件就绪",
+      "allGoodHint": "文件完整性检查通过，可以放心启动。",
+      "launch": "启动游戏",
+      "ignoreAndLaunch": "忽略并启动",
+      "repair": "修复缺失文件",
+      "repairRequired": "修复并重新检查"
+    },
+    "namespace": {
+      "default": "默认目录",
+      "defaultHint": "在设置中修改默认游戏目录",
+      "addDir": "添加目录",
+      "instanceCount": "{{count}} 个实例",
+      "noExtra": "暂无额外目录",
+      "noExtraHint": "添加其他 Minecraft 安装目录以在此统一管理实例",
+      "remove": "移除",
+      "removeDialog": {
+        "title": "移除目录",
+        "desc": "确定要移除目录 \"{{label}}\" 吗？",
+        "hint": "此操作仅移除目录记录，不会删除任何游戏文件。",
+        "cancel": "取消",
+        "confirm": "移除"
+      },
+      "addDialog": {
+        "title": "添加游戏目录",
+        "pathLabel": "目录路径",
+        "pathPlaceholder": "输入或粘贴游戏目录的完整路径",
+        "labelLabel": "显示名称",
+        "labelPlaceholder": "可留空，将使用路径末尾文件夹名",
+        "cancel": "取消",
+        "confirm": "添加",
+        "errorEmpty": "路径不能为空",
+        "errorDuplicate": "该目录已存在"
+      }
+    }
+  },
+  "about": {
+    "slogan": "轻量 · 快速 · 开源",
+    "description": "AST NEKO 是一款基于 Tauri 构建的现代轻量级 Minecraft 启动器。快速、可靠、开源 — 为社区而生。",
+    "version": {
+      "title": "版本信息",
+      "desc": "当前启动器版本",
+      "channel": "版本通道",
+      "build": "构建号"
+    },
+    "runtime": {
+      "title": "运行环境",
+      "os": "操作系统",
+      "arch": "系统架构",
+      "runtime": "运行时",
+      "runtimeOff": "未运行",
+      "webview": "WebView"
+    },
+    "tech": {
+      "title": "技术栈"
+    },
+    "acknowledgments": {
+      "title": "第三方致谢"
+    },
+    "credits": {
+      "title": "致谢",
+      "desc": "由 MuoCeon 发布，CaYiHuo 打造"
+    },
+    "license": {
+      "title": "开源许可",
+      "desc": "基于 GPL-3.0 协议开源"
+    },
+    "actions": {
+      "updates": "检查更新",
+      "feedback": "反馈问题",
+      "homepage": "项目主页"
+    },
+    "footer": "© {{year}} AST NEKO. 保留所有权利。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "首页",
+    "description": "欢迎使用 Vite React i18n 起始模板。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "您查找的页面不存在或已被移除。"
+  }
+}

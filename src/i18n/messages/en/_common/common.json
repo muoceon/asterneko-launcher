@@ -1,0 +1,18 @@
+{
+  "cancel": "Cancel",
+  "logoText": "My App",
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been removed."
+  },
+  "loading": "Loading...",
+  "error": {
+    "title": "Something Went Wrong",
+    "description": "Sorry, an unexpected error occurred while loading the page."
+  },
+  "goBackHome": "Go Back Home",
+  "bridge": {
+    "connected": "Bridge Connected",
+    "disconnected": "Bridge Disconnected"
+  }
+}

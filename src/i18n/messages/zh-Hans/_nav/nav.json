@@ -1,0 +1,23 @@
+{
+  "home": "首页",
+  "instances": "实例管理",
+  "download": "下载",
+  "multiplayer": "联机",
+  "account": "账号",
+  "news": "新闻",
+  "theme": "主题",
+  "settings": "设置",
+  "about": "关于",
+  "menu": {
+    "title": "菜单",
+    "button": "菜单按钮"
+  },
+  "themeToggle": {
+    "change": "切换主题",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "language": {
+    "change": "切换语言"
+  }
+}

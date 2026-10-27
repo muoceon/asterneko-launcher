@@ -1,0 +1,23 @@
+{
+  "home": "Home",
+  "instances": "Instances",
+  "download": "Download",
+  "multiplayer": "Multiplayer",
+  "account": "Account",
+  "news": "News",
+  "theme": "Theme",
+  "settings": "Settings",
+  "about": "About",
+  "menu": {
+    "title": "Menu",
+    "button": "Menu button"
+  },
+  "themeToggle": {
+    "change": "Change theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "change": "Change language"
+  }
+}

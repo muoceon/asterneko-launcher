@@ -1,0 +1,407 @@
+{
+  "slogan": "Lightweight · Fast · Open Source",
+  "account": {
+    "switch": "Switch Account",
+    "offline": "Offline Mode"
+  },
+  "accountPage": {
+    "title": "Account",
+    "tabs": {
+      "muoceon": "MuoCeon Cloud",
+      "game": "Game Account"
+    },
+    "muoceon": {
+      "title": "MuoCeon Cloud Account",
+      "desc": "Sign in to your MuoCeon account for cloud sync and cross-device roaming",
+      "login": "Sign In",
+      "register": "Register",
+      "loggedInAs": "Signed in as",
+      "sync": {
+        "title": "Cloud Sync",
+        "desc": "Automatically sync settings, instances, and launch history",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "logout": "Sign Out",
+      "profile": "Profile"
+    },
+    "game": {
+      "title": "Game Account",
+      "desc": "Manage Minecraft login credentials, supports Microsoft and offline mode",
+      "current": "Current Account",
+      "add": "Add Account",
+      "microsoft": "Microsoft Login",
+      "offline": "Offline Mode",
+      "noAccount": "No game account added",
+      "noAccountDesc": "Click below to add your Minecraft account",
+      "offlineDialog": {
+        "title": "Offline Login",
+        "desc": "Enter your in-game username",
+        "placeholder": "Enter username",
+        "confirm": "Add Account",
+        "cancel": "Cancel",
+        "errorEmpty": "Username cannot be empty",
+        "errorTooLong": "Username cannot exceed 16 characters"
+      },
+      "type": {
+        "microsoft": "Microsoft",
+        "offline": "Offline"
+      }
+    }
+  },
+  "news": {
+    "title": "Latest News",
+    "item1": "New biome and creatures — explore the wild!",
+    "item2": "Performance optimizations boost FPS by 30%",
+    "item3": "Modding API v2.5 released with new hooks"
+  },
+  "version": {
+    "label": "Version",
+    "latest": "Latest"
+  },
+  "play": "Play",
+  "manageGames": "Manage Games",
+  "quickLaunchBtn": "Quick Launch",
+  "quickLaunch": {
+    "title": "Quick Launch",
+    "desc": "Select a save to jump straight into the game",
+    "loading": "Loading saves\u2026",
+    "noSaves": "No saves found"
+  },
+  "game": {
+    "stop": "Stop",
+    "launching": "Launching\u2026",
+    "loginFirst": "Login first"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "desc": "Theme, language, and display preferences",
+      "theme": "Theme",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "themeSystem": "System",
+      "language": "Language"
+    },
+    "game": {
+      "title": "Game Settings",
+      "desc": "Java path, memory allocation, and game directory",
+      "maxMemory": "Max Memory",
+      "javaPath": "Java Path",
+      "javaPathPlaceholder": "Auto-detect",
+      "gameDir": "Game Directory",
+      "javaRuntime": "Java Runtime",
+      "rescan": "Rescan",
+      "rescanning": "Scanning...",
+      "noJavaDetected": "No Java detected. Add one manually or install JDK.",
+      "addManually": "Add manually",
+      "manualAddPlaceholder": "Paste path to java executable or JDK folder...",
+      "manualAddBtn": "Add",
+      "selected": "Selected",
+      "autoDetected": "Auto-detected",
+      "manualSource": "Manual",
+      "isolation": {
+        "title": "Version Isolation",
+        "desc": "Isolate game data and instances per version",
+        "enable": "Enable Version Isolation",
+        "isolateSaves": "Isolate Saves",
+        "isolateMods": "Isolate Mods",
+        "isolateConfig": "Isolate Config",
+        "isolateResourcepacks": "Isolate Resource Packs"
+      }
+    },
+    "download": {
+      "title": "Downloads",
+      "desc": "Download cache and concurrency settings",
+      "channel": "Download Channel",
+      "channelBmclapi": "BMCLAPI Mirror",
+      "channelOfficial": "Mojang Official"
+    },
+    "about": {
+      "title": "About AST NEKO",
+      "desc": "Version info, credits, and acknowledgments"
+    }
+  },
+  "mods": {
+    "title": "Mods"
+  },
+  "download": {
+    "title": "Download Center",
+    "tabs": {
+      "versions": "Game Versions",
+      "modpacks": "Modpacks",
+      "mods": "Mods",
+      "shaders": "Shaders/Resource Packs"
+    },
+    "version": {
+      "filterAll": "All",
+      "filterRelease": "Release",
+      "filterSnapshot": "Snapshot",
+      "filterOld": "Old",
+      "filterAprilFools": "April Fools",
+      "search": "Search versions...",
+      "installed": "Installed",
+      "install": "Install",
+      "launch": "Launch",
+      "releaseDate": "Release Date",
+      "javaVersion": "Java Version",
+      "size": "Estimated Size",
+      "installDialog": {
+        "title": "Configure Install Options",
+        "instanceName": "Instance Name",
+        "instanceNameHint": "This will be used as the game folder name",
+        "loaderLabel": "Loader",
+        "loaderVersion": "Version",
+        "loading": "Loading…",
+        "loaderHint": "Loader installation will be supported in a future update",
+        "cancel": "Cancel",
+        "confirm": "Start Install",
+        "installing": "Installing",
+        "loader": {
+          "none": "None",
+          "vanilla": "Vanilla",
+          "fabric": "Fabric",
+          "forge": "Forge",
+          "neoforge": "NeoForge",
+          "quilt": "Quilt",
+          "noVersions": "No compatible versions available"
+        },
+        "versionType": {
+          "release": "Release",
+          "snapshot": "Snapshot"
+        }
+      }
+    },
+    "mod": {
+      "filterAll": "All",
+      "filterForge": "Forge",
+      "filterFabric": "Fabric",
+      "filterNeoForge": "NeoForge",
+      "filterQuilt": "Quilt",
+      "search": "Search mods...",
+      "downloads": "Downloads",
+      "followers": "Followers",
+      "download": "Download Latest",
+      "mcVersion": "MC Version"
+    },
+    "modpack": {
+      "title": "Modpacks",
+      "comingSoon": "Modpack support coming soon",
+      "desc": "Import .mrpack / .zip modpack files",
+      "import": "Import Modpack"
+    },
+    "shader": {
+      "title": "Shaders & Resource Packs",
+      "comingSoon": "Shaders & resource packs coming soon",
+      "desc": "Will support downloading shaders and resource packs from Modrinth",
+      "tabShaders": "Shaders",
+      "tabResourcepacks": "Resource Packs"
+    },
+    "queue": {
+      "title": "Download Queue",
+      "downloading": "Downloading",
+      "pending": "Pending",
+      "empty": "Queue is empty",
+      "items": "items",
+      "speed": "/s"
+    },
+    "manager": {
+      "title": "Download Manager",
+      "tab_tasks": "Tasks",
+      "tab_history": "History",
+      "empty": "No download tasks",
+      "done": "Completed",
+      "clearDone": "Clear completed",
+      "history_empty": "No history records"
+    }
+  },
+  "task": {
+    "manager": {
+      "title": "Task Manager",
+      "tab_active": "Active",
+      "tab_done": "Done",
+      "tab_history": "History",
+      "tag_download": "Download",
+      "tag_install": "Install",
+      "tag_launch": "Launch",
+      "tag_instance": "Instance",
+      "tag_multiplayer": "Multiplayer",
+      "tag_backup": "Backup",
+      "tag_sync": "Sync",
+      "done": "Completed",
+      "empty_active": "No active tasks",
+      "empty_done": "No completed tasks",
+      "empty_history": "No history records",
+      "filter_by_type": "Type",
+      "clear_filter": "Clear filter",
+      "archive_done": "Archive completed",
+      "clear_history": "Clear history"
+    }
+  },
+  "instance": {
+    "title": "Instances",
+    "newInstance": "New Instance",
+    "tabs": {
+      "games": "Games",
+      "namespaces": "Namespaces"
+    },
+    "filterAll": "All",
+    "filterVanilla": "Vanilla",
+    "filterFabric": "Fabric",
+    "filterForge": "Forge",
+    "filterNeoForge": "NeoForge",
+    "filterQuilt": "Quilt",
+    "empty": "No instances yet",
+    "emptyHint": "Head to the download center to install your first Minecraft version",
+    "goDownload": "Go to Downloads",
+    "launch": "Launch",
+    "delete": "Delete",
+    "deleteDialog": {
+      "title": "Delete Instance",
+      "desc": "Are you sure you want to delete \"{{name}}\"?",
+      "keepFiles": "Keep game files",
+      "keepFilesHint": "Only removes the instance record, keeps downloaded files",
+      "deleteAll": "Also delete game files",
+      "deleteAllHint": "Deletes the instance record and all related files",
+      "cancel": "Cancel",
+      "confirm": "Confirm Delete"
+    },
+    "status": {
+      "ready": "Ready",
+      "installing": "Installing",
+      "error": "Error"
+    },
+    "gameDir": "Game Directory",
+    "version": "Version",
+    "loader": "Loader",
+    "createdAt": "Created",
+    "detail": {
+      "title": "Instance Details",
+      "basicInfo": "Basic Info",
+      "fileIntegrity": "File Integrity",
+      "reCheck": "Re-check",
+      "repairFiles": "Repair Files",
+      "autoChecking": "Checking files automatically…",
+      "openFolder": "Open Folder",
+      "instanceId": "Instance ID",
+      "namespace": "Namespace",
+      "dir": "Game Directory",
+      "verifyHint": "Click \"Repair Files\" above to check integrity",
+      "verifying": "Checking files...",
+      "allGood": "All files intact",
+      "someMissing": "Missing files detected",
+      "repairNow": "Repair Now",
+      "clientJar": "Client JAR",
+      "versionConfig": "Version Config",
+      "libraries": "Libraries",
+      "assets": "Assets",
+      "criticalMissing": "Critical files missing, cannot launch",
+      "criticalHint": "Click \"Repair Files\" to re-download missing critical components",
+      "someMissingHint": "These files won't block launch, but repair is recommended for best experience",
+      "missingCount": "{{count}} missing file(s)",
+      "missingTitle": "Missing Files",
+      "tabBasic": "Basic Info",
+      "tabSaves": "Saves",
+      "tabMods": "Mods",
+      "tabDataPacks": "Data Packs",
+      "tabResourcePacks": "Resource Packs",
+      "tabShaders": "Shaders",
+      "tabRepair": "Repair Files",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "noSaves": "No saves found",
+      "noMods": "No mods installed",
+      "noDataPacks": "No data packs installed",
+      "noResourcePacks": "No resource packs installed",
+      "noShaders": "No shaders installed",
+      "sectionBasic": "Basic",
+      "sectionResources": "Resources",
+      "sectionMaintenance": "Maintenance"
+    },
+    "preLaunch": {
+      "title": "Pre-launch Check",
+      "checking": "Checking file integrity…",
+      "clientJar": "Client JAR",
+      "versionJson": "Version Config",
+      "libraries": "Libraries",
+      "assets": "Assets",
+      "missingCount": "{{count}} missing",
+      "criticalMissing": "Critical Files Missing",
+      "criticalHint": "Essential components are missing and the game cannot start. Please repair first. The repair process will re-run installation, skipping files that already exist.",
+      "nonCritical": "Missing Files Detected",
+      "nonCriticalHint": "These files are not required for launch and the game may still run. Consider repairing for the best experience.",
+      "allGood": "All Files Ready",
+      "allGoodHint": "File integrity check passed. You can launch safely.",
+      "launch": "Launch Game",
+      "ignoreAndLaunch": "Ignore & Launch",
+      "repair": "Repair Missing Files",
+      "repairRequired": "Repair & Re-check"
+    },
+    "namespace": {
+      "default": "Default Directory",
+      "defaultHint": "Change the default game directory in Settings",
+      "addDir": "Add Directory",
+      "instanceCount": "{{count}} instances",
+      "noExtra": "No extra directories",
+      "noExtraHint": "Add other Minecraft directories to manage their instances here",
+      "remove": "Remove",
+      "removeDialog": {
+        "title": "Remove Directory",
+        "desc": "Remove \"{{label}}\"?",
+        "hint": "This only removes the directory record, no game files will be deleted.",
+        "cancel": "Cancel",
+        "confirm": "Remove"
+      },
+      "addDialog": {
+        "title": "Add Game Directory",
+        "pathLabel": "Directory Path",
+        "pathPlaceholder": "Enter or paste the full path to the game directory",
+        "labelLabel": "Display Name",
+        "labelPlaceholder": "Optional, defaults to the folder name",
+        "cancel": "Cancel",
+        "confirm": "Add",
+        "errorEmpty": "Path cannot be empty",
+        "errorDuplicate": "This directory already exists"
+      }
+    }
+  },
+  "about": {
+    "slogan": "Lightweight · Fast · Open Source",
+    "description": "AST NEKO is a modern, lightweight Minecraft launcher built with Tauri. Fast, reliable, and open source — crafted for the community.",
+    "version": {
+      "title": "Version",
+      "desc": "Current launcher version",
+      "channel": "Release Channel",
+      "build": "Build"
+    },
+    "runtime": {
+      "title": "Runtime Environment",
+      "os": "Operating System",
+      "arch": "Architecture",
+      "runtime": "Runtime",
+      "runtimeOff": "Not running",
+      "webview": "WebView"
+    },
+    "tech": {
+      "title": "Tech Stack"
+    },
+    "acknowledgments": {
+      "title": "Acknowledgments"
+    },
+    "credits": {
+      "title": "Credits",
+      "desc": "Published by MuoCeon, crafted by CaYiHuo"
+    },
+    "license": {
+      "title": "License",
+      "desc": "Open source under the GPL-3.0 license"
+    },
+    "actions": {
+      "updates": "Check for Updates",
+      "feedback": "Report Issue",
+      "homepage": "Project Homepage"
+    },
+    "footer": "© {{year}} AST NEKO. All rights reserved."
+  }
+}
